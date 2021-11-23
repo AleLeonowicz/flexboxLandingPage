@@ -10,14 +10,17 @@ html, body {
 
 }
 
-.navbar {
-    display:flex;
-    padding: 10px;
+.navbar, .container {
+    display: flex;
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
-    justify-content: space-between;
+}
 
+
+.navbar {
+    justify-content: space-between;
+     padding: 10px;
 }
 
 .brand {
@@ -74,6 +77,43 @@ header {
 
 header h1 {
     text-transform: uppercase;
+}
+
+
+.services {
+    background-color: #F1F3Fa;
+    padding: 4rem 1rem;
+}
+
+.media-object {
+    display: flex;
+}
+
+.icon {
+    width: 180px;
+}
+
+
+
+.icon-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.blurb-wrapper {
+    flex: 1;
+}
+
+
+.blurb-header {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.blurb-info {
+    color: #646b90;
+    font-size: 18px;
 }
 
 
