@@ -11,7 +11,6 @@ html, body {
 }
 
 .navbar, .container {
-    display: flex;
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
@@ -19,6 +18,7 @@ html, body {
 
 
 .navbar {
+    display: flex;
     justify-content: space-between;
      padding: 10px;
 }
@@ -87,6 +87,8 @@ header h1 {
 
 .media-object {
     display: flex;
+    align-items: center;
+    padding: 3rem;
 }
 
 .icon {
@@ -95,14 +97,26 @@ header h1 {
 
 
 
-.icon-wrapper {
+.icon-wrapper-left {
     flex: 1;
     display: flex;
     justify-content: center;
 }
 
-.blurb-wrapper {
+.icon-wrapper-right {
     flex: 1;
+    display: flex;
+    order: 2;
+    justify-content: center;
+}
+
+.blurb-wrapper-right {
+    flex: 1;
+}
+
+.blurb-wrapper-left {
+    flex: 1;
+    order: 1;
 }
 
 
@@ -115,6 +129,20 @@ header h1 {
     color: #646b90;
     font-size: 18px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************   MEDIA   *****************/
+
 
 
 @media (max-width: 768px) {
