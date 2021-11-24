@@ -212,6 +212,7 @@ header h1 {
     }
 
 
+
     ul.topnav li.dropdownLink {
         display: block;
         position: absolute;
@@ -240,6 +241,23 @@ header h1 {
         line-height: 2rem;
 
 }
+
+    .media-object {
+        flex-direction: column;
+    }
+
+    .icon-wrapper-right {
+        order: 1;
+    }
+
+    .blurb-wrapper-left {
+        order: 2;
+        margin-top: 2rem;
+    }
+
+    .blurb-wrapper-right {
+        margin-top: 2rem;
+    }
 
     .portfolio-wrapper {
     justify-content: space-around;
