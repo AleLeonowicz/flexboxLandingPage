@@ -131,10 +131,22 @@ header h1 {
 }
 
 
+.quote-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
 
 
-
-
+.quote-btn {
+    color: #ffffff;
+    background-color: #66b6d3;
+    font-size: 18px;
+    border: none;
+    padding: .8rem 3rem;
+    box-shadow: 0 5px 20px rgba(0,0,0,.3);
+    cursor: pointer;
+}
 
 
 
